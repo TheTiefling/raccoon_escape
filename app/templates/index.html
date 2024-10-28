@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Página Principal</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="static/styles.css" rel="stylesheet">
+      {% load static %}
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Site de Jogos</a>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Cadastro</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="enviarcoment.html">Enviar Comentário</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="forum.html">Comentários</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="static/veloren1.png" class="d-block w-100" alt="veloren1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="static/veloren2.png" class="d-block w-100" alt="veloren2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="static/veloren3.png" class="d-block w-100" alt="veloren3">
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Veloren</h5>
+                <p class="card-text">Mergulhe em um universo vibrante e dinâmico, onde você pode caçar monstros, voar pelo céu com asas gliders, minerar, construir e embarcar em aventuras épicas com amigos ou sozinho. Com combate fluido e uma infinidade de biomas a descobrir, cada jornada revela novos desafios e segredos ocultos.</p>
+                <a href="https://gitlab.com/veloren/airshipper/-/jobs/artifacts/v0.14.0/download?job=windows-installer-x86_64" class="btn btn-primary">Download</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="static/secretmaryochronicles1.png" class="d-block w-100" alt="mindustry1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="static/secretmaryochronicles2.png" class="d-block w-100" alt="mindustry2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="static/secretmaryochronicles3.png" class="d-block w-100" alt="mindustry3">
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Secret Maryo Chronicles</h5>
+                <p class="card-text">Secret Maryo Chronicles é um jogo de plataforma 2D inspirado nos clássicos de Mario, onde você controla Maryo em uma missão para resgatar sua amada sequestrada por uma força maligna. O jogo apresenta gráficos 2D encantadores, diversos ambientes coloridos e uma jogabilidade fluida.</p>
+                <a href="http://downloads.sourceforge.net/smclone/SMC_1.9_win32.exe?download" class="btn btn-primary">Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+  </html>

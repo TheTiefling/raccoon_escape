@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3e4042;
+    margin: 0;
+    padding: 0;
+}
+label{
+    color: whitesmoke;
+}
+h3{
+    color: whitesmoke;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+.card {
+    margin-bottom: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.alert {
+    margin: 20px 0;
+}
